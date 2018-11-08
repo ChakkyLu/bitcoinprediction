@@ -12,12 +12,12 @@
 
 #### Instruction
 up to 18/11/8
-BETA 1.0
-TRAIN PART
-base:
-  scrape_news.py: use for collect news from website based on urllib
-  generate_orgin_data.py: get news data or price
-  preprocessing_newsdata.py: to process original news title
++ BETA 1.0
++ TRAIN PART
++ base:
+  - scrape_news.py: use for collect news from website based on urllib
+  - generate_orgin_data.py: get news data or price
+  - preprocessing_newsdata.py: to process original news title
 
 #### BETA 0.5
     1. scrapping news methods are based on selenium and chromedriver
