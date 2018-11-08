@@ -19,7 +19,7 @@ base:
   generate_orgin_data.py: get news data or price
   preprocessing_newsdata.py: to process original news title
 
-// BETA 0.5
+#### BETA 0.5
     1. scrapping news methods are based on selenium and chromedriver
     DEMERIT: need to update chromedriver in order to cater to the version of chrome browser and low speed
     2. support only two websites for collecting news (news.bitcoin.com and ccn.com)
@@ -27,7 +27,8 @@ base:
     4. use polenix to obtain bitcoin price, time_period which specifies collecting price every how much time
     5. when label the given news, compare the price of datetime which the news updated and the price of time_period plus datetime
     6. only use two kinds of label (postive: price up and negative: price down)
-// BETA 1.0
+    
+##### BETA 1.0
     1. support more choice when collecting news
     up to BETA 1.0, support: news.bitcoin.com, ccn.com, google.com, bitcoin's twitter, cointelegram.com)
     2. use urllib package instead of selenium
